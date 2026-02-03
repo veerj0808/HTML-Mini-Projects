@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h4>Registration Form</h4>
+  <form action = "/action.php">
+    <input type ="text" placeholder="Username">
+    <br/>
+    <input type ="password" placeholder="Password">
+    <br/>
+    <br/>
+    <h5> Select your class :</h5>
+    <label for="101">
+    <input type="radio" value ="Class 11" name="class" id="101"> Class 11
+    </label>
+    <br/>
+    <br/>
+    <label for="102">
+    <input type="radio" value ="Class 12" name="class" id="102"> Class 12
+    </label>
+<h5>Select your Favoriate Subject </h5>
+    <label for="math">
+      <input type="checkbox" value="Math" id="101" name="subject"> Math
+    </label>
+<br/>
+    <label for="science">
+      <input type="checkbox" value="Science" id="102" name="subject"> Science
+    </label>
+<br/>
+    <label for="Social Studies">
+      <input type="checkbox" value="Social Studies" id="103" name="subject"> Social Studies
+    </label>
+<br/> 
+<br/>
+Select Your City :
+<select name="city">
+  <option value="New York"> New York </option>
+  <option value="Los Angeles"> Los Angeles </option>
+  <option value="Chicago"> Chicago </option>
+  <option value="Houston"> Houston </option>
+  <option value="Phoenix"> Phoenix </option>
+</select>
+<br/>
+<br/>
+    <textarea name="feedback" id="101" placeholder="Pleasen Give your Valueable Feedback... "rows="2" column ="40"></textarea>
+    <br/>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
